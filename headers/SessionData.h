@@ -1,8 +1,6 @@
 #ifndef __SESSION_DATA_H_
 #define __SESSION_DATA_H_
 
-#include "ActorTypes.h"
-
 /*
 	Session Data
 	======================

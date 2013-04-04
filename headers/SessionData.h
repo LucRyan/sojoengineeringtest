@@ -11,7 +11,7 @@
 class SessionData
 {
 public:
-	int actorCounts[EActorTypes::SIZE];
+	int actorCounts[EActorTypes::SIZE];		// Array of integer counts for each type of actor to spawn
 
 	SessionData() { }
 };

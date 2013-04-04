@@ -1,3 +1,11 @@
+#ifndef __EACTOR_TYPES_H_
+#define __EACTOR_TYPES_H_
+
+/*
+	EActorTypes
+	======================
+	Enum containing the various types of behavior classes to implement
+*/
 enum class EActorTypes
 {
 	HUNTER,		// Hunters intelligently search down prey and consume them
@@ -5,3 +13,5 @@ enum class EActorTypes
 	FOX,		// Foxes are cunning and witty, able to evade
 	SIZE
 };
+
+#endif

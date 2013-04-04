@@ -28,5 +28,11 @@ For this test, you will be implementing a simple actor simulation involving thre
   * Dodo - not the brightest of beasts, the dodo evades by chance and luck less than intelligence
   * Fox - cunning, sly, a natural evader, the fox is hard to catch off guard
 
+Additionally, there are a few development constraints:
+* Implement all data structures and algorithms yourself
+* Code must compile without warnings
+* Do not just submit the most naive implementation and be done with it, this is a chance to show off your abilities and knowledge
+
 ## Submitting
-Add GitHub user [aagrapsas-sb](https://github.com/aagrapsas-sb) to your repository once it is complete and e-mail andrew dot grapsas at sojostudios dot com
+* If your repository is private, add GitHub user [aagrapsas-sb](https://github.com/aagrapsas-sb) to your repository
+* Once you are done changing your codebase, e-mail andrew dot grapsas at sojostudios dot com a link to the repository

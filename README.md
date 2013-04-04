@@ -5,7 +5,7 @@ Welcome! This is the GitHub git repository for Sojo Studio's take-home engineeri
 The engineering test's goals are as follows:
 * Display an understanding of Git as a version control system
 * Show comphrension of and aptitude at reading and writing C++
-* Display an understanding of game systems
+* Display an understanding of game systems, problem solving, organization, data structures, etc.
 * Travel off the beaten path
 * Build something fun
 

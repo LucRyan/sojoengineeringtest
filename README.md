@@ -20,6 +20,7 @@ The slots engineering test has been written in minimal C++11. It should compile 
 ### Project Requirements
 For this test, you will be implementing a simple actor simulation involving three types of agents. Actors have a few simple rules:
 * Actors move on one axis at a time to reach a destination (you will never move them on diagonals)
+* Actors move one world unit per turn
 * There are three logical divisions for agents in the game
   * Hunter - hunters are skilled at the art of hunting, they are capable and intelligent, searching for optimal prey (we'll assume they have completely friendly intentions when they find a friend; however, they do remove any caught critters from play)
   * Dodo - not the brightest of beasts, the dodo evades by chance and luck less than intelligence

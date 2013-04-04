@@ -28,4 +28,4 @@ For this test, you will be implementing a simple actor simulation involving thre
 * The world has dynamic width and height constraints that agents will not exceed
 
 ## Submitting
-Invite GitHub user [aagrapsas-sb](https://github.com/aagrapsas-sb) to pull your repository once it is complete and e-mail andrew dot grapsas at sojostudios dot com
+Add GitHub user [aagrapsas-sb](https://github.com/aagrapsas-sb) to your repository once it is complete and e-mail andrew dot grapsas at sojostudios dot com

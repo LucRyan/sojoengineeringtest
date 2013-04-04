@@ -12,8 +12,10 @@ class SessionData
 {
 public:
 	int actorCounts[EActorTypes::SIZE];		// Array of integer counts for each type of actor to spawn
+	int worldWidth;
+	int worldHeight;
 
-	SessionData() { }
+	SessionData() : worldWidth(10), worldHeight(10) { }
 };
 
 #endif

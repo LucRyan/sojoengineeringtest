@@ -10,9 +10,18 @@ The engineering test's goals are as follows:
 * Build something fun
 
 ## Getting Started
-### Cloning the Repository
-Go ahead and clone the repository. If you don't know how, refer to GitHub's [help page](http://help.github.com/ help). 
+### Forking the Repository
+Go ahead and fork the repository. If you don't know how, refer to GitHub's [help page](https://help.github.com/articles/fork-a-repo). 
 > Suggestion: be professional, commit in regular intervals with meaningful commit messages
 
 ### Setting up the project
-The slots engineering test has been written in minimal C++. It should compile in any IDE on any OS without problems.
+The slots engineering test has been written in minimal C++11. It should compile in any IDE on any OS supporting C++11 without problems. Once you have the headers and source compiling, you will rapidly note that there is very, very little code implemented. Your mission, if you choose to accept it, is to implement the remaining simulation.
+
+### Project Requirements
+For this test, you will be implementing a simple actor simulation involving three types of agents. Actors have a few simple rules:
+* Actors move on one axis at a time to reach a destination (you will never move them on diagonals)
+* There are three logical divisions for agents in the game
+  * Hunter - hunters are skilled at the art of hunting, they are capable and intelligent, searching for optimal prey (we'll assume they have completely friendly intentions when they find a friend; however, they do remove any caught critters from play)
+  * Dodo - not the brightest of beasts, the dodo evades by chance and luck less than intelligence
+  * Fox - cunning, sly, a natural evader, the fox is hard to catch off guard
+* The world has dynamic width and height constraints that agents will not exceed

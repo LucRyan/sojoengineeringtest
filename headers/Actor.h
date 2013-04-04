@@ -10,12 +10,12 @@ class Actor
 {
 public:
 	/* Data */
-	int x;
-	int y;
+	int x;											// x coordinate in world space
+	int y;											// y coordinate in world space
 
 	/* Functions */
 	Actor() : x(0), y(0) { }
-	const bool DoesCollide( const Actor* actor );
+	const bool DoesCollide( const Actor* actor );	// Determines if two actors are colliding
 };
 
 #endif

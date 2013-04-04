@@ -3,11 +3,12 @@
 /** Public **/
 void Game::Setup( SessionData* data )
 {
-
+	// @TODO: parse information from SessionData for initial game state
 }
 
 void Game::Execute()
 {
+	// Continuous loop until the simulation has been told to terminate
 	while ( isActive )
 	{
 		HandleFrame();
@@ -17,7 +18,7 @@ void Game::Execute()
 /** Private **/
 void Game::HandleFrame()
 {
-
+	// @TODO: implement your game logic here
 }
 
 void Game::EndGame()

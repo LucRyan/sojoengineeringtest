@@ -11,7 +11,7 @@
 class Game
 {
 public:
-	Game() : isActive(true) { }
+	Game() : isActive(false) { }
 	void Setup( SessionData* data );	// Initializes game state
 	void Execute();						// Begins game loop execution
 

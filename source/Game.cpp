@@ -8,6 +8,9 @@ void Game::Setup( SessionData* data )
 
 void Game::Execute()
 {
+	// Begin activity
+	isActive = true;
+
 	// Continuous loop until the simulation has been told to terminate
 	while ( isActive )
 	{

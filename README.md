@@ -26,3 +26,6 @@ For this test, you will be implementing a simple actor simulation involving thre
   * Dodo - not the brightest of beasts, the dodo evades by chance and luck less than intelligence
   * Fox - cunning, sly, a natural evader, the fox is hard to catch off guard
 * The world has dynamic width and height constraints that agents will not exceed
+
+## Submitting
+Invite GitHub user [aagrapsas-sb](https://github.com/aagrapsas-sb) to pull your repository once it is complete and e-mail andrew dot grapsas at sojostudios dot com

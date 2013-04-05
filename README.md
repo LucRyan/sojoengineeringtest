@@ -27,7 +27,7 @@ For this test, you will be implementing a simple actor simulation involving thre
 * All actors are randomly positioned within the world constraints at the beginning of the simulation (populated via SessionData)
 * There are three logical divisions for agent behavior in the game
   * Hunter - intelligently hunt prey
-  * Dodo - randomly move from location to location without concern for predators
+  * Dodo - randomly move from location to location without concern for hunters
   * Fox - intelligently avoid predators
 
 Additionally, there are a few development constraints:

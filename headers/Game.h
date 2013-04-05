@@ -1,6 +1,7 @@
 #ifndef __GAME_H_
 #define __GAME_H_
 
+#include <stdio.h>
 #include "SessionData.h"
 #include "Actor.h"
 

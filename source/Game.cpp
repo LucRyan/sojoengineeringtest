@@ -1,5 +1,4 @@
 #include "../headers/Game.h"
-#include <stdio.h>
 
 /** Public **/
 void Game::Setup( SessionData* data )

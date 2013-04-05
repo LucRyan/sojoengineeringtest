@@ -19,14 +19,16 @@ The Sojo engineering test has been written in minimal C++11. It should compile i
 
 ### Project Requirements
 For this test, you will be implementing a simple actor simulation involving three types of agents. Actors have a few simple rules:
-* The world has dynamic width and height constraints that agents will not exceed
+* The world is an arbitrary width and height grid specified by SessionData
+* Each grid cell is 1 unit wide and high
+* An actor perfectly occupies 1 grid cell
+* An actor moves 1 grid cell per turn
+* Agents cannot move beyond the bounds of the world
 * All actors are randomly positioned within the world constraints at the beginning of the simulation (populated via SessionData)
-* Actors never move a fraction of a value (think of the world as a grid with fixed cell size 1 and it is impossible to be anywhere but the middle of a grid cell)
-* Actors move one world unit per turn
 * There are three logical divisions for agent behavior in the game
-  * Hunter - hunters are skilled at the art of hunting, they are capable and intelligent, searching for optimal prey (we'll assume they have completely friendly intentions when they find a friend; however, they do remove any caught critters from play)
-  * Dodo - not the brightest of beasts, the dodo evades by chance and luck less than intelligence
-  * Fox - cunning, sly, a natural evader, the fox is hard to catch off guard
+  * Hunter - intelligently hunt prey
+  * Dodo - randomly move from location to location without concern for predators
+  * Fox - intelligently avoid predators
 
 Additionally, there are a few development constraints:
 * Implement all data structures and algorithms yourself

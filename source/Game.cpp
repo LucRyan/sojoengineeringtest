@@ -18,6 +18,7 @@ void Game::Execute()
 	{
 		HandleFrame();
 
+		// Game end condition
 		if ( actorCount <= 1 || actors == NULL )
 		{
 			EndGame();

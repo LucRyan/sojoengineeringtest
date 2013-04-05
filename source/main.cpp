@@ -16,6 +16,9 @@ int main( int argc, char* argv[] )
 	sessionData.actorCounts[EActorTypes::DODO] = 1;
 	sessionData.actorCounts[EActorTypes::FOX] = 1;
 
+	sessionData.worldHeight = 10;
+	sessionData.worldWidth = 10;
+
 	// Pass starting data to game
 	game.Setup( &sessionData );
 

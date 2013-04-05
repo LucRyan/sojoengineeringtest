@@ -1,9 +1,11 @@
 #include "../headers/Game.h"
+#include <stdio.h>
 
 /** Public **/
 void Game::Setup( SessionData* data )
 {
 	// @TODO: parse information from SessionData for initial game state
+	printf( "Initializing game state" );
 }
 
 void Game::Execute()
@@ -15,6 +17,11 @@ void Game::Execute()
 	while ( isActive )
 	{
 		HandleFrame();
+
+		if ( actorCount <= 1 || actors == NULL )
+		{
+			EndGame();
+		}
 	}
 }
 
@@ -27,4 +34,6 @@ void Game::HandleFrame()
 void Game::EndGame()
 {
 	isActive = false;
+
+	printf( "Game has ended" );
 }

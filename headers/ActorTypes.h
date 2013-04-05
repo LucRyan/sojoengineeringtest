@@ -6,7 +6,7 @@
 	======================
 	Enum containing the various types of behavior classes to implement
 */
-enum class EActorTypes
+enum EActorTypes
 {
 	HUNTER,		// Hunters intelligently search down prey and consume them
 	DODO,		// Dodos, foolish and flightless fowl, are unassuming and lack evasive talents

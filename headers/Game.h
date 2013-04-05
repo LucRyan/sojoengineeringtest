@@ -2,6 +2,7 @@
 #define __GAME_H_
 
 #include "SessionData.h"
+#include "Actor.h"
 
 /*
 	Game
@@ -18,6 +19,8 @@ public:
 private:
 	/* Data */
 	bool isActive;						// Flag indicating whether the game will continue or not
+	Actor* actors;						// Array of actors in memory (feel free to change this to another data structure)
+	int actorCount;						// Count of actors in the actors array
 
 	/* Functions */
 	void HandleFrame();					// Runs logic needed per-frame

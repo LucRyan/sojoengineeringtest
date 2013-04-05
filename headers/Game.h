@@ -25,7 +25,7 @@ private:
 
 	/* Functions */
 	void HandleFrame();					// Runs logic needed per-frame
-	void EndGame();						// Stops 
+	void EndGame();						// Stops game execution
 };
 
 #endif

@@ -10,7 +10,7 @@ The engineering test's goals are as follows:
 
 ## Getting Started
 ### Start a new repository
-* Download a zip of our repository (this will not preserve history; but, forks have the problem of being publicly visible and we want to give everyone an even playing field for applications)
+Download a zip of our repository (this will not preserve history; but, forks have the problem of being publicly visible and we want to give everyone an even playing field for applications).
 
 ### Setting up the project
 The Sojo engineering test has been written in minimal C++11. It should compile in any IDE on any OS supporting C++11 without problems. Once you have the headers and source compiling, you will rapidly note that there is very, very little code implemented. Your mission, if you choose to accept it, is to implement the remaining simulation.

@@ -34,4 +34,4 @@ Additionally, there are a few development constraints:
 * Do not just submit the most naive implementation and be done with it, this is a chance to show off your abilities and knowledge
 
 ## Submitting
-* Once you are done changing your codebase, e-mail a zipped version to andrew dot grapsas at sojostudios dot com
+Once you are done changing your codebase, e-mail a zipped version to andrew dot grapsas at sojostudios dot com.

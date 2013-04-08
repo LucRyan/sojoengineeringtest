@@ -3,16 +3,14 @@
 Welcome! This is the GitHub git repository for Sojo Studio's take-home engineering exam. You probably have been directed here as part of an application process for an engineering position at Sojo Studios. If not, feel free to try the test out, anyway!
 
 The engineering test's goals are as follows:
-* Display an understanding of Git as a version control system
 * Show comphrension of and aptitude at reading and writing C++
 * Display an understanding of game systems, problem solving, organization, data structures, etc.
 * Travel off the beaten path
 * Build something fun
 
 ## Getting Started
-### Forking the Repository
-Go ahead and fork the repository. If you don't know how, refer to GitHub's [help page](https://help.github.com/articles/fork-a-repo). 
-> Suggestion: be professional, commit in regular intervals with meaningful commit messages
+### Start a new repository
+* Download a zip of our repository (this will not preserve history; but, forks have the problem of being publicly visible and we want to give everyone an even playing field for applications)
 
 ### Setting up the project
 The Sojo engineering test has been written in minimal C++11. It should compile in any IDE on any OS supporting C++11 without problems. Once you have the headers and source compiling, you will rapidly note that there is very, very little code implemented. Your mission, if you choose to accept it, is to implement the remaining simulation.
@@ -36,5 +34,4 @@ Additionally, there are a few development constraints:
 * Do not just submit the most naive implementation and be done with it, this is a chance to show off your abilities and knowledge
 
 ## Submitting
-* If your repository is private, add GitHub user [aagrapsas-sb](https://github.com/aagrapsas-sb) to your repository
-* Once you are done changing your codebase, e-mail andrew dot grapsas at sojostudios dot com a link to the repository
+* Once you are done changing your codebase, e-mail a zipped version to andrew dot grapsas at sojostudios dot com
